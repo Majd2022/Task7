@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Klassy Cafe</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg bg-white fixed-top shadow-sm">
+        <div class="container">
+          <a class="navbar-brand" href="#home">
+            <span class="logo-icon">
+              <i class="bi bi-cup-hot-fill"></i>
+            </span>
+
+            <span>
+              <strong>Klassy</strong>
+              <small>Since 1980</small>
+            </span>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#chefs">Chefs</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ================= HERO ================= -->
+
+      <section id="home" class="hero-section">
+        <div class="hero-content">
+          <h1>KlassyCafe</h1>
+
+          <p>THE BEST EXPERIENCE</p>
+
+          <a href="#contact" class="btn main-btn"> Make a Reservation </a>
+        </div>
+
+        <div class="hero-image">
+          <img src="./Images/slide-02.jpg" alt="Side photo" />
+        </div>
+      </section>
+
+      <!-- ================= ABOUT ================= -->
+
+      <section id="about" class="about-section section-padding">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+              <span class="section-label"> ABOUT US </span>
+
+              <h2>
+                We Leave A Delicious
+                <br />
+                Memory For You
+              </h2>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis voluptatem consequuntur nihil iste quisquam tenetur.
+              </p>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+                vel ipsa assumenda explicabo accusantium.
+              </p>
+
+              <div class="food-gallery">
+                <img
+                  src="./Images/about-thumb-01.jpg"
+                  alt="Steamed Dumplings"
+                />
+
+                <img src="./Images/about-thumb-02.jpg" alt="Gyoza" />
+
+                <img src="./Images/about-thumb-03.jpg" alt="Herbal Tea" />
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <img
+                src="./Images/about-video-bg.jpg"
+                class="about-image"
+                alt="Restaurant image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CHEFS ================= -->
+
+      <section id="chefs" class="chefs-section section-padding">
+        <div class="container">
+          <div class="section-heading text-center">
+            <span class="section-label"> OUR CHEFS </span>
+
+            <h2>
+              We offer the best
+              <br />
+              ingredients for you
+            </h2>
+          </div>
+
+          <div class="row g-4 mt-4">
+            <article class="col-md-6 col-lg-4">
+              <div class="chef-card">
+                <img src="./Images/chefs-01.jpg" alt="Randy Walker" />
+
+                <div class="chef-info">
+                  <h3>Randy Walker</h3>
+
+                  <p>Pastry Chef</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="col-md-6 col-lg-4">
+              <div class="chef-card">
+                <img src="./Images/chefs-02.jpg" alt="David Martin" />
+
+                <div class="chef-info">
+                  <h3>David Martin</h3>
+
+                  <p>Cookie Chef</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="col-md-6 col-lg-4">
+              <div class="chef-card">
+                <img src="./Images/chefs-03.jpg" alt="Peter Perkson" />
+
+                <div class="chef-info">
+                  <h3>Peter Perkson</h3>
+
+                  <p>Pancake Chef</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= FEATURES / MENU ================= -->
+
+      <section id="menu" class="menu-section section-padding">
+        <div class="container">
+          <div class="section-heading text-center">
+            <span class="section-label"> OUR MENU </span>
+
+            <h2>Discover Our Delicious Menu</h2>
+          </div>
+
+          <div class="row g-4 mt-4">
+            <div class="col-md-4">
+              <article class="menu-card">
+                <div class="menu-icon">
+                  <i class="bi bi-cup-hot"></i>
+                </div>
+
+                <h3>Hot Drinks</h3>
+
+                <p>Fresh coffee and delicious hot drinks.</p>
+              </article>
+            </div>
+
+            <div class="col-md-4">
+              <article class="menu-card">
+                <div class="menu-icon">
+                  <i class="bi bi-egg-fried"></i>
+                </div>
+
+                <h3>Fresh Food</h3>
+
+                <p>Fresh ingredients prepared by our chefs.</p>
+              </article>
+            </div>
+
+            <div class="col-md-4">
+              <article class="menu-card">
+                <div class="menu-icon">
+                  <i class="bi bi-cake2"></i>
+                </div>
+
+                <h3>Desserts</h3>
+
+                <p>Delicious desserts made every day.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= CONTACT ================= -->
+
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+              <span class="section-label"> CONTACT US </span>
+
+              <h2>
+                Here You Can Make A Reservation
+                <br />
+                Or Just walkin to our cafe
+              </h2>
+
+              <p>
+                Donec pretium est orci, non vulputate arcu faucibus a eleifend
+                ligula.
+              </p>
+
+              <div class="contact-info">
+                <div class="info-box">
+                  <i class="bi bi-telephone-fill"></i>
+
+                  <div>
+                    <h3>Phone Numbers</h3>
+
+                    <p>080-000-0000</p>
+                    <p>080-000-0000</p>
+                  </div>
+                </div>
+
+                <div class="info-box">
+                  <i class="bi bi-envelope-fill"></i>
+
+                  <div>
+                    <h3>Emails</h3>
+
+                    <p>hello@company.com</p>
+                    <p>info@company.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <form id="reservationForm" class="reservation-form">
+                <h2>Table Reservation</h2>
+
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your Name"
+                      required
+                    />
+                    <small id="nameError" class="error-text"
+                      >Name is required</small
+                    >
+                  </div>
+
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Your Email"
+                      required
+                    />
+                   
+                  </div>
+
+                  <div class="col-md-6">
+                    <input
+                      type="tel"
+                      class="form-control"
+                      placeholder="Phone Number"
+                      required
+                    />
+                     <small id="phoneError" class="error-text">Please enter a valid phone number</small>
+                  </div>
+
+                  <div class="col-md-6">
+                    <select class="form-select" required>
+                      <option value="">Number Of Guests</option>
+
+                      <option>1 Person</option>
+                      <option>2 People</option>
+                      <option>3 People</option>
+                      <option>4 People</option>
+                      <option>5+ People</option>
+                    </select>
+                  </div>
+
+                  <div class="col-12">
+                    <textarea
+                      class="form-control"
+                      rows="5"
+                      placeholder="Message"
+                    ></textarea>
+                  </div>
+
+                  <div class="col-12">
+                    <button type="submit" class="btn main-btn w-100">
+                      Make A Reservation
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+      <p>© 2026 Klassy Cafe. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+
+    <script src="./JS/Script.js"></script>
+  </body>
+</html>
